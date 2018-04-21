@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MockableHttp
 {
-	interface IHttpService : IDisposable
+	public interface IHttpService : IDisposable
 	{
 		HttpRequestHeaders DefaultRequestHeaders { get; }
 		Uri BaseAddress { get; set; }
